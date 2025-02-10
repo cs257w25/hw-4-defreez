@@ -10,4 +10,7 @@
 // A vector of strings is a list of strings.
 std::vector<std::string> ReadDictionary(const std::string& file_path);
 
+// Choose a random word from the dictionary.
+std::string PickWord(const std::vector<std::string>& dictionary);
+
 #endif
