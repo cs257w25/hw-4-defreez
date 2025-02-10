@@ -6,4 +6,4 @@ project(wordle)
 set(CMAKE_CXX_STANDARD 17)
 
 # Add the executable (name and source files)
-add_executable(wordle src/main.cpp)
+add_executable(wordle src/main.cpp src/game.cpp)
