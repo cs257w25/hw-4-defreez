@@ -13,4 +13,6 @@ std::vector<std::string> ReadDictionary(const std::string& file_path);
 // Choose a random word from the dictionary.
 std::string PickWord(const std::vector<std::string>& dictionary);
 
+int add(int x, int y);
+
 #endif
